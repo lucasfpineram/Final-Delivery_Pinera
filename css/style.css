@@ -1,5 +1,4 @@
-/* style.css */
-/* Google Fonts (via @import) */
+
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 
 body {
@@ -7,25 +6,23 @@ body {
   background-color: #ffffff;
 }
 
-/* NAVBAR */
 
-/* Fondo del navbar */
 .navbar-custom {
   background-color: #000000;
 }
 
-/* Texto blanco en los links del navbar */
+
 .navbar-custom .nav-link {
   color: white;
 }
 
-/* Texto blanco al pasar el mouse (opcionalmente sin cambiar de color) */
+
 .navbar-custom .nav-link:hover {
   color: white;
-  text-decoration: underline; /* o quitá esto si no querés efecto */
+  text-decoration: underline; 
 }
 
-/* Ícono hamburguesa blanco */
+
 .navbar-custom .navbar-toggler {
   border-color: white;
 }
@@ -35,35 +32,40 @@ body {
 }
 
 
-/* HEADER */
+
 .hero-image img {
   width: 100%;
 }
 
-/* Secciones*/
+
 .extra-space-top {
-  margin-top: 8rem; /* o el valor que desees */
+  margin-top: 8rem; 
 }
 
-/* Footer */
+
 .bg-custom-blue {
   background-color: #14599A;
 }
 
 .footer-pet-left,
 .footer-pet-right {
-  max-width: 150px; /* Ajusta esto según el tamaño deseado */
+  max-width: 150px; 
   height: auto;
 }
 
-/* Media Queries para ajustar en pantallas más pequeñas */
+
 @media (max-width: 768px) {
   .footer-pet-left,
   .footer-pet-right {
-    display: none; /* Oculta las imágenes en móviles si no se ven bien */
+    display: none; 
   }
 
   .footer-custom .container {
-    flex-direction: column; /* Apila los elementos en pantallas pequeñas */
+    flex-direction: column; 
   }
+}
+
+.img-partners {
+  max-width: 70%; 
+  height: auto;
 }
