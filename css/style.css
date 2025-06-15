@@ -7,63 +7,40 @@ body {
 }
 
 
-.navbar-custom {
+.navbar-style {
   background-color: #000000;
 }
 
 
-.navbar-custom .nav-link {
+.navbar-style .nav-link {
   color: white;
 }
 
 
-.navbar-custom .nav-link:hover {
+.navbar-style .nav-link:hover {
   color: white;
   text-decoration: underline; 
 }
 
 
-.navbar-custom .navbar-toggler {
+.navbar-style .navbar-toggler {
   border-color: white;
 }
 
-.navbar-custom .navbar-toggler-icon {
+.navbar-style .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 
-
-.hero-image img {
+.banner-image img {
   width: 100%;
 }
 
 
-.extra-space-top {
-  margin-top: 8rem; 
+.bg-style-black {
+  background-color: #000000;
 }
 
-
-.bg-custom-blue {
-  background-color: #14599A;
-}
-
-.footer-pet-left,
-.footer-pet-right {
-  max-width: 150px; 
-  height: auto;
-}
-
-
-@media (max-width: 768px) {
-  .footer-pet-left,
-  .footer-pet-right {
-    display: none; 
-  }
-
-  .footer-custom .container {
-    flex-direction: column; 
-  }
-}
 
 .img-partners {
   max-width: 70%; 
